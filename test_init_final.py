@@ -279,8 +279,8 @@ def init():
 			endTime = endTime + datetime.timedelta(days=int(basicSetting[13]))
 
 	### 채널 고정###
-	basicSetting[6] = int('698602692473520159') #보이스채널ID
-	basicSetting[7] = int('698602627696689232') #택스트채널ID
+	#basicSetting[6] = int('698602692473520159') #보이스채널ID
+	#basicSetting[7] = int('698602627696689232') #택스트채널ID
 	
 	bossNum = int(len(boss_inputData)/5)
 
